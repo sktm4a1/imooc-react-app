@@ -6,6 +6,6 @@
 3.消息列表，标记已读未读    
 4.个人中心、，点击退出
 
-!['image'][https://github.com/sktm4a1/imooc-react-app/blob/master/src/component/img/view.PNG]
+![image](https://github.com/sktm4a1/imooc-react-app/blob/master/src/component/img/view.PNG])
 
 ### npm start
