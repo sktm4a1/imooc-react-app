@@ -1,0 +1,47 @@
+
+.error-msg{
+	padding: 10px 0 0 10px;
+	color: #f50;
+}
+
+.am-tab-bar{
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 50px !important;
+}
+.fix-header.am-navbar{
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+.page-content{
+	padding: 45px 5px;
+}
+
+.company {
+	color: red;
+	font-size: 16px;
+	margin:0 0 15px 0;
+}
+.salary {
+	color: gold;
+	font-weight: 500;
+}
+.am-result .am-result-title {
+	color: #ffc107 !important;
+}
+#chat-page .chat-me .am-list-extra{
+	flex-basis: auto;
+}
+#chat-page .chat-me .am-list-content{
+	padding-right: 15px;
+	text-align: right;
+}
+
+.stick-footer {
+	z-index: 10;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
