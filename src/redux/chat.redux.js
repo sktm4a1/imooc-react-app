@@ -23,10 +23,11 @@ export function chat(state=initState, action){
 			const n = action.userid===action.payload.to?1:0
 			return {...state,chatmsg:[...state.chatmsg,action.payload],unread:state.unread+n}
 		case MSG_READ:
+			const {from,num} = action.payload;
 			return {...state,chatmsg:state.chatmsg.map(function(item, index) {
-				item.read = true;
+				item.read = from===item.from ? true:item.read;
 				return item;
-			}),unread:state.unread-action.payload.num}
+			}),unread:state.unread-num}
 		default:
 			return state
 	}
