@@ -12,4 +12,15 @@
 #### 个人中心
 ![个人中心](https://github.com/sktm4a1/imooc-react-app/blob/master/src/component/img/self.PNG)
 
-### npm start
+### 启动项目
+```shell
+node server/server.js
+npm start
+```
+  
+
+用户|密码
+---|----
+imooc|123
+vue|123
+react|123
